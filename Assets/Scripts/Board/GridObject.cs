@@ -26,8 +26,6 @@ public class GridObject : MonoBehaviour
         return BoardObject;
     }
 
-    public Vector3 GetCenterPosition()
-    {
-        return transform.position;
-    }
+    public bool HasBoardObject() { return BoardObject != null; }
+    public Vector3 GetCenterPosition() { return new Vector3(transform.position.x, transform.position.y + transform.localScale.y / 2, transform.position.z); }
 }

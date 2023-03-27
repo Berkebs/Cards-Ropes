@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Card : MonoBehaviour, ISelectableObject, IBoardObject
 {
 
-
-
+    int level = 1;
+    public TextMeshPro LevelText;
 
 
     public IBoardObject GetBoardObject()
