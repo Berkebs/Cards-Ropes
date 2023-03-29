@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 2019900945674865664}
   - component: {fileID: 2936469475214846898}
   - component: {fileID: 2750006605486553529}
+  - component: {fileID: 4516713566709826746}
   m_Layer: 0
   m_Name: Chest
-  m_TagString: Untagged
+  m_TagString: Chest
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93,11 +94,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1036905550365619007}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4516713566709826746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036905550365619007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fc23b4268083d4eb8a0d6d31ecee29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelText: {fileID: 764042110122835092}
+  Variables:
+    ObjectType: 0
+    Level: 0
+    onBoard: 0
+  ConnectedGrid: {fileID: 0}
 --- !u!1 &1473444869984348038
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87f83436327396844996ab64ed9cf1e8, type: 3}
   m_Name: GameSettings
   m_EditorClassIdentifier: 
-  GameStartMoney: 50
+  GameStartMoney: 100
+  CardPrice: 50
