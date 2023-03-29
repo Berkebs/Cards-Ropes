@@ -7,6 +7,6 @@ public class CardMove : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(0, 0, 0.0175f);
+        transform.Translate(0, 0, 5 * Time.deltaTime);
     }
 }
